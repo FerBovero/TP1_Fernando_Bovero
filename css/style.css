@@ -59,7 +59,7 @@ body:has(#modo:checked) {
 }
 
 
-.nav {
+.nev {
     display: flex;
     align-items: center;
     justify-content: space-between;
