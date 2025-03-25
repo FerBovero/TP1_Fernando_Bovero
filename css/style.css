@@ -12,6 +12,50 @@ li{
     font-size: 18px;
 }
 
+.toggle {
+    position: fixed;
+    top: 10px;  
+    right: 10px; 
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.7); 
+
+    transition: background-color 0.3s;
+}
+
+body:has(#modo:checked) .toggle {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+body {
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.toggle {
+    display: inline-block;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.luna {
+    display: none;
+}
+
+body:has(#modo:checked) {
+    background-color: black;
+    color: white;
+}
+
+#modo:checked ~ .toggle .sol {
+    display: none;
+}
+
+#modo:checked ~ .toggle .luna {
+    display: inline;
+}
+
+
 .nav {
     display: flex;
     align-items: center;
