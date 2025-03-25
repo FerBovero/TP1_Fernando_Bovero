@@ -3,15 +3,31 @@ h1{
     font-weight: 800;
     font-style: italic;
 }
+
 p{
     font-size: 20px;
 }
+
 li{
     font-size: 18px;
 }
-.youtube{
-    color: yellow;
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
 }
-.youtube:hover{
-    color: white;
+
+.contacto {
+    background-color: #007bff;
+    color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.contacto:hover {
+    background-color: #0056b3;
 }
