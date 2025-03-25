@@ -35,12 +35,6 @@ body {
     transition: background-color 0.3s, color 0.3s;
 }
 
-.toggle {
-    display: inline-block;
-    cursor: pointer;
-    margin: 20px;
-}
-
 .luna {
     display: none;
 }
