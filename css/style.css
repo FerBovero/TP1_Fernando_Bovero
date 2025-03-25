@@ -12,13 +12,16 @@ li{
     font-size: 18px;
 }
 
+.janson{
+    border-radius: 10px;
+}
+
 .toggle {
     position: fixed;
     top: 10px;  
     right: 10px; 
     cursor: pointer;
     background: rgba(255, 255, 255, 0.7); 
-
     transition: background-color 0.3s;
 }
 
@@ -74,4 +77,22 @@ body:has(#modo:checked) {
 
 .contacto:hover {
     background-color: #0056b3;
+}
+.redes{
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+
+.githuboscuro{
+    display: none;
+}
+
+body:has(#modo:checked) .githubclaro{
+    display: none;
+    transition: 0.3;
+}
+
+body:has(#modo:checked) .githuboscuro{
+    display: inline;
+    transition: 0.3s;
 }
