@@ -38,7 +38,7 @@ main li{
 
 .toggle {
     position: fixed;
-    top: 11px; 
+    bottom: 11px; 
     right: 20px;  
     cursor: pointer;
 }
