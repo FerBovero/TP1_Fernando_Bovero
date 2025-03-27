@@ -6,74 +6,96 @@
         <title>Portfolio de Lucas Janson</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
         <link rel="icon" href="img/icon.png">
     </head>
     <body>
         <header>
-            <h1>Lucas Janson </h1>
-            <input type="checkbox" id="modo" hidden>
-            <label for="modo" class="toggle">
-                <img class="sol" src="img/sol.png" width="30" height="30" alt="Modo Oscuro">
-                <img class="luna" src="img/oscuro.png" width="30" height="30" alt="Modo Claro">
-            </label>
-            <img class="janson" height="250" width="180" src="img/pibejanson.jpg" alt="Foto de Lucas Janson">
-            <h1>Project Manager</h1>
-            <div class="nev">
-                <a class="contacto" href="html/formulario.html">Contacto</a>   
-            </div>
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#experiencia">Experiencia</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="html/formulario.html">Contacto</a></li>
+                    <li><a href="#redes">Redes</a></li>
+                </ul>
+            </nav>
+            <section id="perfil">
+                <h1>Lucas Janson </h1>
+                <input type="checkbox" id="modo" hidden>
+                <label for="modo" class="toggle">
+                    <img class="sol" src="img/sol.png" width="30" height="30" alt="Modo Oscuro">
+                    <img class="luna" src="img/oscuro.png" width="30" height="30" alt="Modo Claro">
+                </label>
+                <img class="janson" height="250" width="180" src="img/pibejanson.jpg" alt="Foto de Lucas Janson">
+                <h1>Project Manager</h1>
+            </section>
         </header>
     </body>
     <main>
-        <h2>Descripcion:</h2>
-        <p>Soy Lucas Janson, un <strong>Project Manager</strong> apasionado por la organización, la eficiencia y el trabajo en equipo. 
-            Me motiva llevar proyectos desde la planificación hasta la ejecución, asegurando que cada detalle esté alineado 
-            con los objetivos y expectativas. Disfruto enfrentar desafíos, encontrar soluciones y optimizar procesos para lograr resultados
-            exitosos. Creo en el poder de la comunicación y el liderazgo colaborativo para impulsar equipos hacia el éxito. 
-            Siempre estoy en búsqueda de nuevas oportunidades para aprender, crecer y hacer que las cosas sucedan.</p>
-        <h2>Habilidades:</h2>
-        <ul>
-            <li>Comunicación efectiva y liderazgo colaborativo</li>
-            <li>Análisis de riesgos y gestión del cambio</li>
-            <li>Optimización de procesos y mejora continua</li>
-            <li>Negociación y manejo de stakeholders</li>
-            <li>Pensamiento crítico y adaptabilidad</li>
-        </ul>
-        <h2>Experiencia Laboral:</h2>
-        <h3>Project Manager | [Globant] (2022 - Actualidad)</h3>
-        <ul>
-            <li>Lideré la planificación y ejecución de múltiples proyectos, asegurando el cumplimiento de plazos y objetivos</li>
-            <li>Coordiné equipos multidisciplinarios bajo metodologías ágiles, mejorando la eficiencia y colaboración.</li>
-            <li>Implementé estrategias de optimización de procesos que redujeron tiempos de entrega en un 20%.</li>
-            <li>Gestioné la comunicación con stakeholders clave, asegurando alineación y expectativas claras.</li>
-        </ul>
-        <h3>Asistente de Gestión de Proyectos | [Accenture] (2020 - 2022)</h3>
-        <ul>
-            <li>Apoyé en la planificación y seguimiento de proyectos, facilitando el cumplimiento de hitos.</li>
-            <li>Analicé riesgos y propuse soluciones para mitigar posibles desviaciones en cronogramas.</li>
-            <li>Colaboré en la documentación y generación de reportes para la toma de decisiones estratégicas.</li>
-            <li>Implementé herramientas de gestión para mejorar la organización y monitoreo del avance de proyectos.</li>
-        </ul>
-        <h2>Proyectos realizados:</h2>
-        <h3>Implementación de Plataforma E-commerce para Retail Internacional (Globant, 2023)</h3> 
-        <ul>
-            <li>Gestioné el desarrollo e implementación de una tienda en línea para una marca de retail con presencia global.</li>
-            <li>Coordiné equipos de UX/UI, desarrollo y QA bajo metodología Scrum, asegurando entregas en cada sprint.</li>
-            <li>La plataforma logró un aumento del 40% en ventas online en los primeros seis meses.</li>
-        </ul>
-        <h3>Optimización de Procesos Internos con Automatización RPA (Accenture, 2022)</h3>
-        <ul>
-            <li>Lideré un proyecto de automatización de procesos repetitivos mediante tecnología RPA (Robotic Process Automation).</li>
-            <li>Reduje el tiempo de procesamiento de tareas administrativas en un 60%, mejorando la eficiencia operativa.</li>
-            <li>Trabajé con equipos de IT y negocio para diseñar flujos automatizados que minimizaron errores humanos.</li>
-        </ul>
-        <div class="redes">
-            <a class="youtube" href="https://www.youtube.com/watch?v=n5ksEjfIgok&pp=ygUTbHVjYXMgamFuc29uIHNraWxscw%3D%3D" target="_blank" rel="noreferrer"><img src="img/youtube.png" alt="Youtube" width="40"></a>
-            <a class="githubclaro" href="https://github.com/" target="_blank" rel="noreferrer"><img src="img/Github-Logo.png" alt="Github" width="35"></a> 
-            <a class="githuboscuro" href="https://github.com/" target="_blank" rel="noreferrer"><img src="img/Github-Logo2.png" alt="Github" width="35"></a> 
-            <a class="linkedin" href="https://ar.linkedin.com/" target="_blank" rel="noreferrer"><img src="img/linkedin.png" alt="Linkedin" width="35"></a>
-        </div>
+        <section id="descripcion">
+            <h2>Descripcion:</h2>
+            <p>Soy Lucas Janson, un <strong>Project Manager</strong> apasionado por la organización, la eficiencia y el trabajo en equipo. 
+                Me motiva llevar proyectos desde la planificación hasta la ejecución, asegurando que cada detalle esté alineado 
+                con los objetivos y expectativas. Disfruto enfrentar desafíos, encontrar soluciones y optimizar procesos para lograr resultados
+                exitosos. Creo en el poder de la comunicación y el liderazgo colaborativo para impulsar equipos hacia el éxito. 
+                Siempre estoy en búsqueda de nuevas oportunidades para aprender, crecer y hacer que las cosas sucedan.</p>
+        </section>
+        <section id="habilidades">
+            <h2>Habilidades:</h2>
+            <ul>
+                <li>Comunicación efectiva y liderazgo colaborativo</li>
+                <li>Análisis de riesgos y gestión del cambio</li>
+                <li>Optimización de procesos y mejora continua</li>
+                <li>Negociación y manejo de stakeholders</li>
+                <li>Pensamiento crítico y adaptabilidad</li>
+            </ul>
+        </section>
+        <section id="experiencia">
+            <h2>Experiencia Laboral:</h2>
+            <h3>Project Manager | [Globant] (2022 - Actualidad)</h3>
+            <ul>
+                <li>Lideré la planificación y ejecución de múltiples proyectos, asegurando el cumplimiento de plazos y objetivos</li>
+                <li>Coordiné equipos multidisciplinarios bajo metodologías ágiles, mejorando la eficiencia y colaboración.</li>
+                <li>Implementé estrategias de optimización de procesos que redujeron tiempos de entrega en un 20%.</li>
+                <li>Gestioné la comunicación con stakeholders clave, asegurando alineación y expectativas claras.</li>
+            </ul>
+            <h3>Asistente de Gestión de Proyectos | [Accenture] (2020 - 2022)</h3>
+            <ul>
+                <li>Apoyé en la planificación y seguimiento de proyectos, facilitando el cumplimiento de hitos.</li>
+                <li>Analicé riesgos y propuse soluciones para mitigar posibles desviaciones en cronogramas.</li>
+                <li>Colaboré en la documentación y generación de reportes para la toma de decisiones estratégicas.</li>
+                <li>Implementé herramientas de gestión para mejorar la organización y monitoreo del avance de proyectos.</li>
+            </ul>
+        </section>
+        <section id="proyectos">
+            <h2>Proyectos realizados:</h2>
+            <h3>Implementación de Plataforma E-commerce para Retail Internacional (Globant, 2023)</h3> 
+            <ul>
+                <li>Gestioné el desarrollo e implementación de una tienda en línea para una marca de retail con presencia global.</li>
+                <li>Coordiné equipos de UX/UI, desarrollo y QA bajo metodología Scrum, asegurando entregas en cada sprint.</li>
+                <li>La plataforma logró un aumento del 40% en ventas online en los primeros seis meses.</li>
+            </ul>
+            <h3>Optimización de Procesos Internos con Automatización RPA (Accenture, 2022)</h3>
+            <ul>
+                <li>Lideré un proyecto de automatización de procesos repetitivos mediante tecnología RPA (Robotic Process Automation).</li>
+                <li>Reduje el tiempo de procesamiento de tareas administrativas en un 60%, mejorando la eficiencia operativa.</li>
+                <li>Trabajé con equipos de IT y negocio para diseñar flujos automatizados que minimizaron errores humanos.</li>
+            </ul>
+        </section>
+        <section id="redes">
+            <h3>Redes</h3>
+            <div class="redes_iconos">
+                <a class="youtube" href="https://www.youtube.com/watch?v=n5ksEjfIgok&pp=ygUTbHVjYXMgamFuc29uIHNraWxscw%3D%3D" target="_blank" rel="noreferrer"><img src="img/youtube.png" alt="Youtube" width="43"></a>
+                <a class="githubclaro" href="https://github.com/" target="_blank" rel="noreferrer"><img src="img/Github-Logo.png" alt="Github" width="35"></a> 
+                <a class="githuboscuro" href="https://github.com/" target="_blank" rel="noreferrer"><img src="img/Github-Logo2.png" alt="Github" width="35"></a> 
+                <a class="linkedin" href="https://ar.linkedin.com/" target="_blank" rel="noreferrer"><img src="img/linkedin.png" alt="Linkedin" width="35"></a>
+                <a class="instagram" href="https://www.instagram.com/luquitasjanson?igsh=MTVhMzhnc3c2dHlndg==" target="_blank" rel="noreferrer"><img src="img/1658587303instagram-png.webp" alt="Instragram" width="35"></a>
+                <a class="twitterclaro" href="https://x.com/LucasJanson" target="_blank" rel="noreferrer"><img src="img/twitter.png" alt="Twitter" width="35"></a>
+                <a class="twitteroscuro" href="https://x.com/LucasJanson" target="_blank" rel="noreferrer"><img src="img/twitterblanco.png" alt="Twitter" width="35"></a>
+            </section>
+            </div>
     </main>
     <footer>
         Pagina hecha con fines educativos

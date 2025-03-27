@@ -1,38 +1,103 @@
-h1{
-    font-family: "Taviraj", serif;
-    font-weight: 800;
-    font-style: italic;
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
-p{
-    font-size: 20px;
+html {
+    scroll-behavior: smooth;
 }
 
-li{
-    font-size: 18px;
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+    padding: 40px 20px;
+    max-width: 800px; 
+    margin: 0 auto; 
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 15px;
+    font-style: normal;
 }
 
-.janson{
-    border-radius: 10px;
+#perfil{
+    margin-bottom: 10px;
+}
+h2, h3 {
+    margin-bottom: 10px;
+}
+main p, ul {
+    text-align: left; 
+    line-height: 1.6;
+}
+main li{
+    margin-bottom: 8px;
 }
 
 .toggle {
     position: fixed;
-    top: 10px;  
-    right: 10px; 
+    top: 11px; 
+    right: 20px;  
     cursor: pointer;
-    background: rgba(255, 255, 255, 0.7); 
-    transition: background-color 0.3s;
-}
-
-body:has(#modo:checked) .toggle {
-    background: rgba(0, 0, 0, 0.7);
 }
 
 body {
+    padding-top: 40px;
     background-color: white;
     color: black;
     transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: #333; 
+    padding: 15px 30px;
+    width: 100%; 
+    position: fixed; 
+    top: 0px;
+    left: 0px; 
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 14px;
+    font-style: normal;
+    transition: 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #009dff;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center; 
+    padding: 30px 20px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 15px;
+    font-style: normal;
+}
+
+.janson {
+    margin: 20px 0px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 15px;
 }
 
 .luna {
@@ -52,29 +117,11 @@ body:has(#modo:checked) {
     display: inline;
 }
 
-
-.nev {
+.redes_iconos{
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: space-between;
-    padding: 10px 20px;
-}
-
-.contacto {
-    background-color: #007bff;
-    color: rgb(255, 255, 255);
-    padding: 10px 15px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 18px;
-}
-
-.contacto:hover {
-    background-color: #0056b3;
-}
-.redes{
-    justify-content: space-between;
-    padding: 10px 15px;
+    gap: 10px;
 }
 
 .githuboscuro{
@@ -87,6 +134,20 @@ body:has(#modo:checked) .githubclaro{
 }
 
 body:has(#modo:checked) .githuboscuro{
+    display: inline;
+    transition: 0.3s;
+}
+
+.twitteroscuro{
+    display: none;
+}
+
+body:has(#modo:checked) .twitterclaro{
+    display: none;
+    transition: 0.3;
+}
+
+body:has(#modo:checked) .twitteroscuro{
     display: inline;
     transition: 0.3s;
 }
