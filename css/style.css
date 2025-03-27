@@ -26,9 +26,11 @@ main {
     margin-bottom: 10px;
 }
 h2, h3 {
+    color: #1c1c1c;
     margin-bottom: 10px;
 }
 main p, ul {
+    color: #333;
     text-align: left; 
     line-height: 1.6;
 }
