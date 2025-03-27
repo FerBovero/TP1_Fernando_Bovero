@@ -99,6 +99,11 @@ header {
     box-shadow: 1px 1px 15px;
 }
 
+.sol{
+    background-color: rgba(0, 0, 3, 0.1);
+    box-shadow: 1px 1px 4px;
+}
+
 .luna {
     display: none;
 }
